@@ -7,10 +7,10 @@ function RecipeAuthor() {
     let authorName = "Laura"
     return (
         <div className={styles.recipeAuthorBlock}>
-            <img src={authorPhoto} alt="Reasonable alt text" className={styles.imageUpdates} height={200}/>
+            <img src={authorPhoto} alt="Picture of Laura" className={styles.imageUpdates} height={200}/>
             <div>
                 <h3>{authorName}</h3>
-                <a href={authorLink}>Blog name</a>
+                <a href={authorLink}>Joy Food Sunshine: About Laura</a>
             </div>
         </div>
     );
@@ -22,7 +22,7 @@ class RecipeDescription extends React.Component {
             <div>
                 <div>
                     <h1>Chocolate Chip Cookies</h1>
-                    <p>Short recipe description</p>
+                    <p>A simple, straightforward, amazingly delicious recipe for chocolate chip cookies</p>
                 </div>
                 <RecipeAuthor />
             </div>

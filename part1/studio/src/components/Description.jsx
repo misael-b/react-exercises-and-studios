@@ -21,7 +21,7 @@ class RecipeDescription extends React.Component {
         return (
         <div>
             <div>
-                <h1>Recipe Title</h1>
+                <h1>Chocolate Chip Cookies</h1>
                 <p>Short recipe description</p>
             </div>
             <RecipeAuthor />

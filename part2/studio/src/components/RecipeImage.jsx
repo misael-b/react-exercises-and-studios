@@ -1,5 +1,5 @@
 function RecipeImage() {
-   return;
+  return;
  }
  
  export default RecipeImage;

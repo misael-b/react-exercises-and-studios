@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import HobbyIntroduction from './components/Introduction';
-// import MyProjects from './components/Projects';
+import MyProjects from './components/Projects';
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <div className="App">
         <h1>My Hobby: Soccer</h1>
         <HobbyIntroduction />
+        <MyProjects />
       </div>
     </>
   )

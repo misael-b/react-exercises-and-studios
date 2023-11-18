@@ -6,18 +6,18 @@ export default function MyProjects() {
   
 
   function handleClick() {
-    if (index < data.projects.length - 1) {
+    if (index < data.worldCups.length - 1) {
       setIndex(index + 1);
     }
     else {
       setIndex(0);
     }
   };
-  
+
   let year = data.worldCups[index].year;
   let host = data.worldCups[index].host;
   let champion = data.worldCups[index].champion;
-  let runnerUp = data.worldCups[index].runnerUp;
+  let runnerUp = data.worldCups[index]["runner-up"];
   let image = data.worldCups[index].image;
 
   return (
@@ -34,9 +34,10 @@ export default function MyProjects() {
         <div>Champion: {champion}</div>
         <div>Runner-Up: {runnerUp}</div>
     
-      <img src={ image}></img>
+      <img src={ image} height={200}></img>
 
     </div>
   );
 
 }
+
